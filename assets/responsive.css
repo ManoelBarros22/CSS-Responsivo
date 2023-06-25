@@ -1,0 +1,39 @@
+@media screen and (min-width: 641px) and (max-width: 1023px) {
+    .sobre {
+      display: block;
+    }
+    .titulo {
+      margin-top: 1.25rem;
+    }
+    .produtos ul {
+      grid-template-columns: 1fr 1fr;
+      row-gap: 1.125rem;
+    }
+  }
+  
+  @media screen and (max-width: 640px) {
+    .header {
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .sobre {
+      display: block;
+    }
+    .titulo {
+      margin-top: 1.25rem;
+    }
+    .produtos ul {
+      display: block;
+    }
+  
+    .produtos li {
+      margin-bottom: 1.25rem;
+    }
+    .item p {
+      margin-bottom: 0.5rem;
+    }
+    footer p {
+      font-size: 0.875rem;
+    }
+  }
+  

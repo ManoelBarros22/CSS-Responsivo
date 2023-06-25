@@ -1,0 +1,165 @@
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  margin: 0px;
+  box-sizing: border-box;
+  color: #141414;
+  background: #f0f0f0;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #141414;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 1.25rem;
+}
+
+header {
+  background: #182c61;
+}
+.header {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#title {
+  font-size: 38px;
+  font-style: italic;
+  color: white;
+}
+
+#mouse {
+  width: 230px;
+  height: 242px;
+}
+
+#wc {
+  margin-left: 20px;
+  width: 180px;
+}
+
+#mt {
+  height: 220px;
+}
+
+.menu {
+  display: flex;
+  gap: 2.25rem;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 0.0625rem;
+}
+
+.menu a {
+  color: #f0f0f0;
+}
+
+.sobre {
+  align-items: start;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3.125rem;
+}
+
+.titulo {
+  color: #182c61;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-bottom: 1.25rem;
+  border-bottom: 2px solid #182c61;
+  padding-bottom: 0.5rem;
+}
+
+.produtos ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 1.125rem;
+}
+
+.sobre img, .produtos img{
+  border-radius: 6px;
+}
+.price {
+  color: #182c61;
+  margin: 0.3125rem 0;
+  display: block;
+}
+
+.item img {
+  transition: transform 0.5s ease;
+  margin-bottom: 0.625rem;
+}
+
+.item img:hover {
+  transform: scale(1.1);
+}
+.item h2 {
+  margin-bottom: 0.5rem;
+}
+
+.item h2 a {
+  color: #182c61;
+  font-weight: 500;
+}
+
+.item p {
+  margin-bottom: 0.25rem;
+}
+
+.item button {
+  width: 100%;
+  display: block;
+  padding: 8px 40px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border: none;
+  text-align: center;
+  background: #182c61;
+  color: #f0f0f0;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: ease-in-out 0.8s;
+}
+
+.item button:hover {
+  background: #314e9e;
+}
+
+footer {
+  background: #182c61;
+}
+
+footer p {
+  text-align: center;
+  color: #f0f0f0;
+}
+
+.footer-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
